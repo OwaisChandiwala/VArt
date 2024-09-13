@@ -1,0 +1,43 @@
+
+.home {
+  text-align: center;
+  padding: 20px;
+}
+
+.main-heading {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.movies-container {
+  margin-bottom: 40px;
+}
+
+.movie-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.movie-image {
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.movie-image:hover {
+  transform: scale(1.05);
+}
+
+.carousel-container {
+  margin-top: 20px; 
+}
+
+.carousel-image {
+  width: 100%;
+  max-width: 600px; 
+  height: auto;
+  border-radius: 8px;
+}

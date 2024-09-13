@@ -1,0 +1,19 @@
+.animated-logo {
+  max-width: 100%; /* Ensures the image does not exceed the container width */
+  animation: fadeInOut 3s ease-in-out; /* Animation duration */
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+    transform: scale(0.5); /* Start smaller and faded out */
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1); /* Full size and fully visible */
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.5); /* End smaller and faded out */
+  }
+}
